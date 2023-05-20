@@ -4,10 +4,13 @@ import Header from "../header/Header"
 const AppLayout = () => {
     return (
     <>
-        <div >
+        <div>
             <Header />
-            <Outlet />
+            <div className="">
+                <Outlet />
             </div>
+            
+        </div>
             
     </>
 )};
