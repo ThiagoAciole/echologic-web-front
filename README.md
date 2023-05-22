@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   
 # echologic-web-front
 
@@ -51,6 +51,56 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
 <br>
 
 ## [Como contribuir](#como-contribuir)
+
+  1. Clone o repositorio
+  
+    - Abra o terminal na pasta que você deseja adicionar o projeto no seu computador
+    - Execute o comando: git clone https://github.com/ThiagoAciole/echologic-web-front.git
+    - Quando o projeto for baixado, click com o botão direto do mouse e abra com o VSCODDE
+    
+  2. Escolha uma issue
+  
+    - No repositorio do git vá até a parte de issues ou click nesse link https://github.com/ThiagoAciole/echologic-web-front/issues
+    - Click em uma das issues de seu interesse e assine-a do lado direito da tela
+    - Observe sempre se essa issue não está assinada
+    
+  3. Crie uma branch local
+  
+    - No VsCode abra o terminal
+    - Verifique em que branch você está, executando: git branch
+    - Se não estiver na master execute: git checkout master
+    - Certifique-se que a branch main está atualizada executando: git pull
+    - Agora crie uma nova branch de desenvolvimento executando: git checkout -b <nome da branch>
+    - Siga esse padrão para nome da branch: 3-cria-tela-principal (esse "3" é o número da issue)
+
+  4. Criando uma nova página
+  
+    - Você vai seguir o padrão que já está pronto, em arquivos com o nome "tela-padrao"
+    - Vá copiando tudo que achar sobre isso e atualize para o que deseja criar
+    - Lembre-se de analisar as seguintes pastas, onde certamentamente terá algo pra ser modificado:
+      1. src/assets/imagens (aqui você vai criar uma pasta para adicionar todas as imagens da sua tela)
+      2. src/pages (aqui você vai criar o arquivo principal da página, onde estará todo o conteúdo dela)
+      3. src/App.jsx (aqui você vai adicionar o link da sua página para o layout principal)
+    - Basicamente você só precisará fazer ctrl+c ctrl+v da página padrão e para adicionar o conteúdo vai pegar ou na internet ou os que estão prontos no arquivo que o professor compartilhou
+    
+  5. Fazendo commits
+  
+    - Após as modificações desejadas inicie o commit executando: git init
+    - Verifique o que você está enviando executando: git status
+    - Adicione todas as modificações executando: git add.
+    - Realize o commit executando: git commit -m "mensagem do commit"
+    - Para a mensagem do commit siga esse padrão: feat(#3): Frase do commit (esse "3" é o número da issue)
+    - Nessa hora pode pedir um login que será o da sua conta do github
+  
+  6. Fazendo merge
+  
+    - Após o commit bem sucedido, irá aparecer um link pra você adicionar um merge
+    - Basta clicar no link e pode deixar o nome do merge padrão
+    - Faça uma breve descrição
+    - Verifique se está assinado por você
+    - E click em mergerequest
+    - Parabéns, agora é só aguardar a aprovação
+   
 
 <br>
 
