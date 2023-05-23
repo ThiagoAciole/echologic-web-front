@@ -1,9 +1,3 @@
-@media (max-width: 525px) {
-  #cardImagemEsquerdaResponsividade img {
-    width: 220px;
-    height: 280px;
-  }
-}
 @media (max-width: 768px) {
   #cardImagemEsquerdaResponsividade img {
     width: 250px;
@@ -12,14 +6,31 @@
 }
 @media (max-width: 1009px) {
   #cardImagemEsquerdaResponsividade {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column-reverse;
+  }
+  #cardImagemEsquerdaResponsividade div {
+    padding: 0px;
   }
   #cardImagemEsquerdaResponsividade h1 {
     text-align: center;
   }
   #cardImagemEsquerdaResponsividade p {
     text-align: center;
+  }
+  #cardImagemEsquerdaResponsividade img {
+    width: 280px;
+    height: 340px;
+  }
+}
+@media (max-width: 768px) {
+  #cardImagemEsquerdaResponsividade img {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 525px) {
+  #cardImagemEsquerdaResponsividade img {
+    width: 220px;
+    height: 280px;
   }
 }/*# sourceMappingURL=CardImagemEsquerda.module.css.map */

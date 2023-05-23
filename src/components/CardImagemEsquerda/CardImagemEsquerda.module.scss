@@ -1,10 +1,32 @@
 #cardImagemEsquerdaResponsividade{
 
-    @media (max-width: 525px){
+    @media (max-width: 768px) {
         img{
-            width: 220px;
-            height: 280px;
+            width: 250px;
+            height: 300px;
         }
+    }
+
+    @media(max-width: 1009px) {
+
+        flex-direction: column-reverse;
+
+        div{
+            padding: 0px;
+        }
+        
+        h1{
+          text-align: center;  
+        }
+        p{
+            text-align: center;
+        }
+
+        img{
+            width: 280px;
+            height: 340px;
+        } 
+        
     }
 
     @media (max-width: 768px) {
@@ -13,17 +35,11 @@
             height: 300px;
         }
     }
-    @media(max-width: 1009px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
-        h1{
-          text-align: center;  
+    @media (max-width: 525px){
+        img{
+            width: 220px;
+            height: 280px;
         }
-        p{
-            text-align: center;
-        }
-        
     }
 }
