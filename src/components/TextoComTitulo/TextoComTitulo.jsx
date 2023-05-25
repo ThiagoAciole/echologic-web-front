@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line react/prop-types
 export default function TextoComTitulo({titulo, texto}) {
   return (
     <div className="flex flex-col mt-20">
