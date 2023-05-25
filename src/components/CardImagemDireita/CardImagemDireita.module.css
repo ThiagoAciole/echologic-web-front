@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  #cardImagemDireitaResponsividade img {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 1009px) {
+  #cardImagemDireitaResponsividade {
+    flex-direction: column-reverse;
+  }
+  #cardImagemDireitaResponsividade div {
+    padding: 0px;
+  }
+  #cardImagemDireitaResponsividade h1 {
+    text-align: center;
+  }
+  #cardImagemDireitaResponsividade p {
+    text-align: center;
+  }
+  #cardImagemDireitaResponsividade img {
+    width: 280px;
+    height: 340px;
+  }
+}
+@media (max-width: 768px) {
+  #cardImagemDireitaResponsividade img {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 525px) {
+  #cardImagemDireitaResponsividade img {
+    width: 220px;
+    height: 280px;
+  }
+}/*# sourceMappingURL=CardImagemDireita.module.css.map */

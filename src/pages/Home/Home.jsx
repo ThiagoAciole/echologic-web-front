@@ -1,6 +1,7 @@
 import CardMaterial from "./Card/card"
 import UnDraw from "../../../public/undraw.svg"
 
+
 export default function Home() {
   return (
     <><div className="mt-32 h-full items-center  flex flex-col sm:flex-row space-y-8 ">
@@ -47,6 +48,5 @@ export default function Home() {
   </div>
       </>
     )
-    
 }
 
