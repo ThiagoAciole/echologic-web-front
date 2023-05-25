@@ -13,7 +13,6 @@ function App() {
                   <Route index element={<Home />} />
                   <Route path='tela-padrao' element={<TelaPadrao />} />
                 </Route>
-               
             </Routes>
         </BrowserRouter>
     );
