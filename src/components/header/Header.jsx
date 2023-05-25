@@ -1,26 +1,54 @@
 import { useState } from 'react';
 import './style.css';
-import { Link } from 'react-router-dom';
+
+import { Link as ScrollLink } from 'react-scroll';
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  
 
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
   };
-
+  const handleScrollToTop = () => {
+    scroll.scrollToTop(Header);
+  };
   return (
-    <header>
+    <><header>
       <nav className={menuOpen ? 'open' : ''}>
         <div className="logo">
-        <div className="flex text-2xl">
-              <h1 className="font-extrabold text-lime-500">Echo</h1>
-              <h1 className="text-gray-500">Logic</h1>
-            </div>
+          <div className="flex text-2xl">
+            <h1 className="font-extrabold text-lime-500">Echo</h1>
+            <h1 className="text-gray-500">Logic</h1>
+          </div>
         </div>
         <ul className="menu">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/sobre">Sobre</Link></li>
-          <li><Link to="/legislacao">Legislação</Link></li>
+          <li>
+            <ScrollLink
+              to="home"
+              smooth={true}
+              duration={500}
+              onClick={handleMenuToggle}>
+              Home
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="sobre"
+              smooth={true}
+              duration={500}
+              onClick={handleMenuToggle}>
+              Sobre
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="legislação"
+              smooth={true}
+              duration={500}
+              onClick={handleMenuToggle}>
+              Legislação
+            </ScrollLink>
+          </li>
         </ul>
         <button className="btn">Materiais</button>
         {menuOpen && (
@@ -35,5 +63,9 @@ export default function Header() {
         </div>
       </nav>
     </header>
+    <button className="scroll-top-btn" onClick={handleScrollToTop}>
+        Voltar ao topo
+      </button>
+      </>
   );
   }

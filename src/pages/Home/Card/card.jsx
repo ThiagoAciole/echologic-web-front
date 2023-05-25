@@ -2,7 +2,7 @@ import { Card, Text, Metric, Flex, Button } from "@tremor/react";
 
 export default function CardMaterial() {
     return (
-    <Card className=" justify-center">
+    <Card className="">
     <img src="https://i.pinimg.com/originals/8f/08/25/8f08250fcaa73d33c502e42236f1b53a.jpg" alt="" className="mb-4" />
     <Metric>Material</Metric>
     <Flex className="mt-4">

@@ -13,7 +13,7 @@ export default function Home() {
           </div>
           
       </div>
-      <div className="mt-40 h-full items-center flex flex-col sm:flex-row space-y-8">
+      <div id="sobre" className="mt-40 h-full items-center flex flex-col sm:flex-row space-y-8">
               <div className="space-y-8 sm:w-1/2 sm:p-8">
                   <h1 className="font-sans text-5xl font-extrabold text-gray-700">Sobre</h1>
                   <p className="font-sans text-xl text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget mauris mauris. Vestibulum non sagittis ligula, at convallis quam. Integer hendrerit quam non nisi egestas, nec lobortis massa posuere. Fusce sed eros mauris. Sed semper purus nisl, eu tempus magna tempor sed. In id ex vitae mi elementum malesuada.</p>
@@ -26,7 +26,7 @@ export default function Home() {
               <div className="space-y-8 sm:w-1/2 sm:p-8">
                   <h1 className="font-sans text-5xl font-extrabold text-gray-700 text-center">Conheça os Materiais que degradam o meio ambiente</h1>
                   </div>
-                  <div className="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
+                  <div className="flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
                     <CardMaterial />
                     <CardMaterial />
                     <CardMaterial />

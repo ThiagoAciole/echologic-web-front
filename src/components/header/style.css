@@ -71,6 +71,19 @@ nav {
   margin-bottom: 5px;
 }
 
+.scroll-top-btn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #224722;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .menu {
     display: none;
