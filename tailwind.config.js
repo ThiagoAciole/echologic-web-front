@@ -7,7 +7,11 @@ export default {
 "./node_modules/@tremor/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      padding:{
+        'p-56': "56.25%"
+      }
+    },
   },
   plugins: [],
 }
