@@ -1,11 +1,9 @@
-import CardImagemDireita from "../../components/CardImagemDireita/CardImagemDireita";
 import CardImagemEsquerda from "../../components/CardImagemEsquerda/CardImagemEsquerda";
-import TextoComTitulo from "../../components/TextoComTitulo/TextoComTitulo";
 import CardImagemLista from "../../components/CardImagemLista/CardImagemLista"
 import Video from "../../components/Video/Video"
 import Referencias from "../../components/Referencias/Referencias"
 
-export default function TelaPadrao() {
+export default function Ouro() {
   const obtencao = [
     "Ouro nativo;",
     "Electrum, que é produzida artificialmente;",
