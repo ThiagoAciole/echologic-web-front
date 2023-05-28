@@ -27,7 +27,7 @@ export default function Home() {
                   <h1 className="font-sans text-5xl font-extrabold text-gray-700 text-center">Conheça os Materiais que degradam o meio ambiente</h1>
                   </div>
                   <div className="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
-                    <CardMaterial />
+                    <CardMaterial name="Ouro" url="ouro" />
                     <CardMaterial />
                     <CardMaterial />
                     <CardMaterial />
