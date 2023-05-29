@@ -7,6 +7,7 @@ import TelaPadrao from './pages/TelaPadrao/TelaPadrao';
 import Ouro from './pages/Ouro/Ouro'
 import Zinco from './pages/Zinco/Zinco'
 import Vidro from './pages/Vidro/Vidro';
+import Plastico from './pages/Plastico/Plastico';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                   <Route path='ouro' element={<Ouro/>} />
                   <Route path='zinco' element={<Zinco/>} />
                   <Route path='vidro' element={<Vidro/>} />
+                  <Route path='/plastico' element={<Plastico/>} />
                 </Route>
             </Routes>
         </BrowserRouter>
