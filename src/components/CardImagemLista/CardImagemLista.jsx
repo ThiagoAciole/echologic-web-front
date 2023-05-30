@@ -1,7 +1,7 @@
 import styles from '../CardImagemDireita/CardImagemDireita.module.css'
 
 
-export default function CardImagemDireita({imagem, titulo, p1, p2, lista}) {
+export default function CardImagemLista({imagem, titulo, p1, p2, lista}) {
     const click = () => {
         console.log('click')
     }
