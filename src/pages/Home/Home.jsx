@@ -1,5 +1,5 @@
 import CardMaterial from "./Card/card"
-import UnDraw from "../../../public/undraw.svg"
+import UnDraw from "../../../public/UnDraw.svg"
 
 export default function Home() {
   return (

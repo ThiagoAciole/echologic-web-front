@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AppLayout from './components/layout/AppLayout';
 import Home from './pages/Home/Home';
+import MaisInformacoes from './pages/MaisInformacoes/MaisInformacoes';
 import TelaPadrao from './pages/TelaPadrao/TelaPadrao';
 import Ouro from './pages/Ouro/Ouro'
 import Zinco from './pages/Zinco/Zinco'
@@ -14,6 +15,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<AppLayout />}>
                   <Route index element={<Home />} />
+                  <Route path='mais-informacoes' element={<MaisInformacoes/>} />
                   <Route path='tela-padrao' element={<TelaPadrao />} />
                   <Route path='ouro' element={<Ouro/>} />
                   <Route path='zinco' element={<Zinco/>} />
