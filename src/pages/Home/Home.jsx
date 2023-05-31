@@ -1,5 +1,5 @@
 import CardMaterial from "./Card/card"
-import UnDraw from "../../../public/undraw.svg"
+import UnDraw from "../../../public/UnDraw.svg"
 
 export default function Home() {
   return (
@@ -29,7 +29,7 @@ export default function Home() {
                   <div className="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
                     <CardMaterial name="Ouro" url="ouro" />
                     <CardMaterial />
-                    <CardMaterial />
+                    <CardMaterial name="Nióbio" url="niobio" />
                     <CardMaterial />
                     </div>
                     <div className="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
