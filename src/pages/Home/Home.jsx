@@ -28,7 +28,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
                     <CardMaterial name="Ouro" url="ouro" />
-                    <CardMaterial />
+                    <CardMaterial name="Cadmio" url="cadmio"/>
                     <CardMaterial />
                     <CardMaterial />
                     </div>
