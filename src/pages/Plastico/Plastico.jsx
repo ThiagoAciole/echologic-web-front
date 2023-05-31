@@ -11,9 +11,9 @@ import imagemReciclar from "../../assets/ImagensPlastico/image5.jfif"
 export default function Plastico() {
 
     const referencias = [
-        "OpenAI. (2021). ChatGPT [Modelo de linguagem de IA]. Disponível em: https://openai.com/. Acesso em: [Data de acesso].",
-        "COMO É feito o plástico? Processo de produção de plástico simplificado: Como é feito o plástico?. [S. l.], 2021. Disponível em: https://www.plasticcollectors.com/pt/blog/how-is-plastic-made/. Acesso em: 24 maio 2023.",
         "MEDEIROS, Ana Paula. Plásticos descartados no oceano se transformam e geram impactos climáticos. [S. l.], 27 abr. 2022. Disponível em: https://jornal.usp.br/atualidades/plasticos-descartados-no-oceano-se-transformam-e-geram-impactos-climaticos/. Acesso em: 24 maio 2023.",
+        "COMO É feito o plástico? Processo de produção de plástico simplificado: Como é feito o plástico?. [S. l.], 2021. Disponível em: https://www.plasticcollectors.com/pt/blog/how-is-plastic-made/. Acesso em: 24 maio 2023.",
+        "OpenAI. (2021). ChatGPT [Modelo de linguagem de IA]. Disponível em: https://openai.com/. Acesso em: [Data de acesso].",
         "COMO É o processo de fabricação do plástico?. [S. l.], 14 out. 2020. Disponível em: https://www.piramidal.com.br/blog/resinas-termoplasticas/processo-de-fabricacao-do-plastico/#. Acesso em: 24 maio 2023."
     ]
 
@@ -47,10 +47,10 @@ export default function Plastico() {
                 titulo="Forma de obtenção"
                 texto="Matérias-primas: Para fazer plástico, o primeiro requisito é adquirir matérias-primas. Essas matérias-primas incluem carvão, petróleo bruto e gás natural.
                 Em seguida temos a fusão onde as matérias-primas são misturadas em proporções adequadas e colocadas em um forno de fusão. O aquecimento ocorre a altas temperaturas, geralmente acima de 1.500°C, para fundir os materiais em um estado líquido homogêneo.
-            Logo após vem a formação, o vidro fundido é moldado na forma desejada. Existem diferentes técnicas para isso, dependendo do tipo de produto final desejado.
-            Após a formação, o vidro é resfriado lentamente para reduzir a tensão interna e aumentar a resistência. Isso é feito em um processo chamado têmpera, no qual o vidro é aquecido a uma temperatura alta e depois resfriado gradualmente.
-            Depois de resfriado, o vidro passa por processos adicionais de acabamento, como corte, moagem e polimento, para obter as dimensões e acabamento desejados.
-            O vidro é inspecionado quanto a defeitos, como bolhas, rachaduras ou imperfeições, para garantir a qualidade.
+                Logo após vem a formação, o vidro fundido é moldado na forma desejada. Existem diferentes técnicas para isso, dependendo do tipo de produto final desejado.
+                Após a formação, o vidro é resfriado lentamente para reduzir a tensão interna e aumentar a resistência. Isso é feito em um processo chamado têmpera, no qual o vidro é aquecido a uma temperatura alta e depois resfriado gradualmente.
+                Depois de resfriado, o vidro passa por processos adicionais de acabamento, como corte, moagem e polimento, para obter as dimensões e acabamento desejados.
+                O vidro é inspecionado quanto a defeitos, como bolhas, rachaduras ou imperfeições, para garantir a qualidade.
             "
                 imagem={imagemObtencao}
             />
