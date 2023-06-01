@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  #cardComLinkResponsividade img {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 1009px) {
+  #cardComLinkResponsividade {
+    flex-direction: column-reverse;
+  }
+  #cardComLinkResponsividade div {
+    padding: 0px;
+  }
+  #cardComLinkResponsividade h1 {
+    text-align: center;
+  }
+  #cardComLinkResponsividade p {
+    text-align: center;
+  }
+  #cardComLinkResponsividade img {
+    width: 280px;
+    height: 340px;
+  }
+}
+@media (max-width: 768px) {
+  #cardComLinkResponsividade img {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 525px) {
+  #cardComLinkResponsividade img {
+    width: 220px;
+    height: 280px;
+  }
+}/*# sourceMappingURL=CardComLink.module.css.map */

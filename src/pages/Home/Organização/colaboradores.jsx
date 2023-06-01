@@ -1,6 +1,6 @@
 export default function Colaboradores() {
     return (
-      <div className="mx-auto max-w-xl">
+      <div className="mx-auto ">
         <h1 className="font-sans text-3xl font-extrabold text-gray-700 text-center">Colaboradores do projeto</h1>
         <div className="mt-12 flex flex-col sm:flex-row sm:space-x-4">
           <div className="space-y-2 flex flex-col items-center">

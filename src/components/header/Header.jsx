@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './style.css';
-
+import Logo from '../../assets/logo.svg';
 import { Link as ScrollLink } from 'react-scroll';
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,10 +14,9 @@ export default function Header() {
     <><header>
       <nav className={menuOpen ? 'open' : ''}>
         <div className="logo">
-          <div className="flex text-2xl">
-            <h1 className="font-extrabold text-lime-500">Echo</h1>
-            <h1 className="text-gray-500">Logic</h1>
-          </div>
+          <a href="/">
+            <img src={Logo} alt="logo" />
+          </a>
         </div>
         <ul className="menu">
           <li>
