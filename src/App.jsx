@@ -15,9 +15,9 @@ function App() {
                 <Route path='/' element={<AppLayout />}>
                   <Route index element={<Home />} />
                   <Route path='tela-padrao' element={<TelaPadrao />} />
-                  <Route path='ouro' element={<Ouro/>} />
-                  <Route path='zinco' element={<Zinco/>} />
-                  <Route path='vidro' element={<Vidro/>} />
+                  <Route path='/ouro' element={<Ouro/>} />
+                  <Route path='/zinco' element={<Zinco/>} />
+                  <Route path='/vidro' element={<Vidro/>} />
                 </Route>
             </Routes>
         </BrowserRouter>
