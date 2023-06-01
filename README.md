@@ -134,7 +134,7 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
     </td>
     <td align="center">
       <a href="https://github.com/mateusbrga">
-        <img src="https://avatars.githubusercontent.com/u/93921419?v=4" width="100px;" alt="Avatar Matheus"/><br>
+        <img src="https://avatars.githubusercontent.com/u/93728229?v=4" width="100px;" alt="Avatar Matheus"/><br>
         <sub>
           <b>Matheus Braga</b>
         </sub>
@@ -152,7 +152,7 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
       <a href="https://github.com/ynnayron">
         <img src="https://avatars.githubusercontent.com/u/93790229?v=4" width="100px;" alt="Avatar Emerson"/><br>
         <sub>
-          <b>Emerson Ian</b>
+          <b>Ynnayron Juan</b>
         </sub>
       </a>
     </td>
