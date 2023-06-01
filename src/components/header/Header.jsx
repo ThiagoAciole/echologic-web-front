@@ -9,9 +9,7 @@ export default function Header() {
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
   };
-  const handleScrollToTop = () => {
-    scroll.scrollToTop(Header);
-  };
+  
   return (
     <><header>
       <nav className={menuOpen ? 'open' : ''}>
@@ -50,7 +48,6 @@ export default function Header() {
             </ScrollLink>
           </li>
         </ul>
-        <button className="btn">Materiais</button>
         {menuOpen && (
           <button className="back-btn" onClick={handleMenuToggle}>
             Voltar
@@ -63,9 +60,7 @@ export default function Header() {
         </div>
       </nav>
     </header>
-    <button className="scroll-top-btn" onClick={handleScrollToTop}>
-        Voltar ao topo
-      </button>
+  
       </>
   );
   }
