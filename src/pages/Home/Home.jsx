@@ -21,7 +21,7 @@ export default function Home() {
         
     </div>
     <div id="lixoEletronico" className="mt-24 h-full items-center flex flex-col sm:flex-col space-y-8">
-        <div className="space-y-8 sm:w-1/2 sm:p-8 mx-auto max-w-xl">
+        <div className="space-y-8 sm:w-1/2 sm:p-8 mx-auto ">
             <h1 className="font-sans text-5xl font-extrabold text-gray-700 text-center">Conheça os Materiais que degradam o meio ambiente</h1>
             <p className="font-sans text-xl text-gray-700 text-center">
             Conheça os principais materiais utilizados na fabricação de equipamentos de informática e seu impacto ambiental
