@@ -1,5 +1,5 @@
 import CardImagemDireita from "../../components/CardImagemDireita/CardImagemDireita";
-import CardImagemEsquerda from "../../components/CardImagemEsquerda/CardImagemEsquerda"
+
 import CardImagemLista from "../../components/CardImagemLista/CardImagemLista"
 import Referencias from "../../components/Referencias/Referencias"
 

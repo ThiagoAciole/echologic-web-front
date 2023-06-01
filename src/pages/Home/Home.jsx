@@ -1,50 +1,69 @@
 import CardMaterial from "./Card/card"
-import UnDraw from "../../../public/UnDraw.svg"
+import Colaboradores from "./Organização/colaboradores"
+import Section1 from "./Section 1/Section1"
+import Sobre from "./Sobre/sobre"
+
 
 export default function Home() {
   return (
-    <><div className="mt-32 h-full items-center  flex flex-col sm:flex-row space-y-8 ">
-          <div className="sm:w-1/2 ">
-              <img src={UnDraw} alt="" className="object-cover h-full w-full rounded-s-3xl" />
-          </div>
-          <div className="space-y-8 sm:w-1/2 sm:p-8">
-              <h1 className="font-sans text-5xl font-extrabold text-gray-700">Impacto Ambiental de Tecnologias Modernas</h1>
-              <p className="font-sans text-xl text-gray-700">Descubra o lado obscuro da inovação tecnológica. Nesta jornada, exploraremos as Tecnologias que Prejudicam o Meio Ambiente</p>
-          </div>
-          
-      </div>
-      <div id="sobre" className="mt-40 h-full items-center flex flex-col sm:flex-row space-y-8">
-              <div className="space-y-8 sm:w-1/2 sm:p-8">
-                  <h1 className="font-sans text-5xl font-extrabold text-gray-700">Sobre</h1>
-                  <p className="font-sans text-xl text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget mauris mauris. Vestibulum non sagittis ligula, at convallis quam. Integer hendrerit quam non nisi egestas, nec lobortis massa posuere. Fusce sed eros mauris. Sed semper purus nisl, eu tempus magna tempor sed. In id ex vitae mi elementum malesuada.</p>
-              </div>
-              <div className="sm:w-1/2">
-                  <img src="https://camo.githubusercontent.com/7eb2286557b85ec1c8514ade44d6ad6799c1576b933275439737b2306de80305/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3936383535363936393432383431383635302f313131303330373731313631363330373233302f312e706e673f" alt="" className="object-cover h-full w-full " />
-              </div>
-          </div>
-          <div className="mt-40 h-full items-center flex flex-col sm:flex-col space-y-8">
-              <div className="space-y-8 sm:w-1/2 sm:p-8">
-                  <h1 className="font-sans text-5xl font-extrabold text-gray-700 text-center">Conheça os Materiais que degradam o meio ambiente</h1>
-                  </div>
-                  <div className="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
-                    <CardMaterial name="Ouro" url="ouro" />
-                    <CardMaterial />
-                    <CardMaterial />
-                    <CardMaterial />
-                    </div>
-                    <div className="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6">
-                    <CardMaterial />
-                    <CardMaterial />
-                    <CardMaterial />
-                    <CardMaterial />
-                    </div>
-                  </div>
-                  <div className="mt-40 h-full items-center flex flex-col sm:flex-col space-y-8">
-    <h1 className="font-sans text-5xl font-extrabold text-gray-700">Legislação</h1>
-    <p className="font-sans text-xl text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget mauris mauris. Vestibulum non sagittis ligula, at convallis quam. Integer hendrerit quam non nisi egestas, nec lobortis massa posuere. Fusce sed eros mauris. Sed semper purus nisl, eu tempus magna tempor sed. In id ex vitae mi elementum malesuada.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget mauris mauris. Vestibulum non sagittis ligula, at convallis quam. Integer hendrerit quam non nisi egestas, nec lobortis massa posuere. Fusce sed eros mauris. Sed semper purus nisl, eu tempus magna tempor sed. In id ex vitae mi elementum malesuada.
-    </p>
-  </div>
+    <>
+    <div  className="h-full ">
+        <Section1/>
+    </div>
+    <div className="ml-12 mr-12">
+        <Sobre/>
+    </div>
+    <div className="mt-24 h-full items-center flex flex-col sm:flex-col space-y-8">
+       
+        <Colaboradores/>
+           
+        
+    </div>
+    <div id="lixoEletronico" className="mt-24 h-full items-center flex flex-col sm:flex-col space-y-8">
+        <div className="space-y-8 sm:w-1/2 sm:p-8 mx-auto max-w-xl">
+            <h1 className="font-sans text-5xl font-extrabold text-gray-700 text-center">Conheça os Materiais que degradam o meio ambiente</h1>
+            <p className="font-sans text-xl text-gray-700 text-center">
+            Conheça os principais materiais utilizados na fabricação de equipamentos de informática e seu impacto ambiental
+            </p>
+        </div>
+
+            <div className="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6 ml-12 mr-12">
+            <CardMaterial 
+            name="Ouro" 
+            description="Ouro é um metal precioso de cor amarela brilhante, altamente valorizado por sua beleza e raridade, utilizado há séculos como símbolo de riqueza e status. Sua durabilidade, maleabilidade e condutividade o tornam versátil para joias, eletrônica e várias aplicações industriais." 
+            url="ouro" 
+            image="https://ejior.com.br/wp-content/uploads/2020/10/ejior.com.br-ouro-conheca-a-historia-que-alavancou-seu-poder-no-mundo-pilha-de-barras-de-ouro-em-branco-290464-674.jpg" />
+            
+            <CardMaterial 
+            name="Zinco"  
+            description="Zinco é um metal azulado-branco, conhecido por sua resistência à corrosão. Amplamente utilizado na indústria, o zinco desempenha um papel essencial como revestimento protetor, bem como na fabricação de ligas metálicas e na produção de pilhas."
+            url="zinco" 
+            image="https://5.imimg.com/data5/UN/SS/MY-34737767/zinc-metal-500x500.jpg"/>
+            <CardMaterial 
+            name="Vidro" 
+            description="Vidro é um material transparente e sólido, composto principalmente de sílica derretida e resfriada rapidamente. É amplamente utilizado na fabricação de janelas, recipientes, lentes ópticas e em uma variedade de aplicações industriais e artísticas devido à sua transparência, durabilidade e capacidade de ser moldado em diferentes formas."
+            url="vidro" 
+            image="https://39124.cdn.simplo7.net/static/39124/sku/molduras-para-quadros-adicional-de-vidro-a4--p-1530814699322.jpg"/>  
+            
+            </div>
+            <div className="mt-12">
+            <button className="Botão rounded-full text-base">Ver Mais</button>
+            </div>
+            
+           
+            
+    </div>
+    <div>
+  
+    </div>
+    <div id="maisInfo" className="mt-24 h-full items-center flex flex-col space-y-8 text-center mx-auto max-w-xl">
+  <h1 className="font-sans text-5xl font-extrabold text-gray-700 w-full sm:w-1/2">Mais Informações Sobre o Lixo Eletrônico e Seu devido Descarte</h1>
+  <p className="font-sans text-xl text-gray-700">
+    Descubra tudo sobre o descarte correto do lixo eletrônico e a legislação que o envolve. Entenda por que é tão importante agir de forma responsável ao se livrar de seus dispositivos antigos. Saiba como você pode contribuir para a proteção do meio ambiente e evitar problemas legais. Clique aqui para obter mais informações sobre o tema e fique por dentro de todas as orientações e regulamentações relacionadas ao descarte adequado de lixo eletrônico.
+  </p>
+  <button className="btn">Saiba Mais</button>
+</div>
+
       </>
     )
     

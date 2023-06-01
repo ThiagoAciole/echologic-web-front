@@ -9,9 +9,7 @@ export default function Header() {
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
   };
-  const handleScrollToTop = () => {
-    scroll.scrollToTop(Header);
-  };
+  
   return (
     <><header>
       <nav className={menuOpen ? 'open' : ''}>
@@ -27,7 +25,7 @@ export default function Header() {
               to="home"
               smooth={true}
               duration={500}
-              onClick={handleMenuToggle}>
+              >
               Home
             </ScrollLink>
           </li>
@@ -36,21 +34,38 @@ export default function Header() {
               to="sobre"
               smooth={true}
               duration={500}
-              onClick={handleMenuToggle}>
+              >
               Sobre
             </ScrollLink>
           </li>
           <li>
             <ScrollLink
-              to="legislação"
+              to="lixoEletronico"
               smooth={true}
               duration={500}
-              onClick={handleMenuToggle}>
-              Legislação
+              >
+              Materiais Degradantes
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="maisInfo"
+              smooth={true}
+              duration={500}
+              >
+              Mais Informações
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="contato"
+              smooth={true}
+              duration={500}
+             >
+              Contato
             </ScrollLink>
           </li>
         </ul>
-        <button className="btn">Materiais</button>
         {menuOpen && (
           <button className="back-btn" onClick={handleMenuToggle}>
             Voltar
@@ -63,9 +78,7 @@ export default function Header() {
         </div>
       </nav>
     </header>
-    <button className="scroll-top-btn" onClick={handleScrollToTop}>
-        Voltar ao topo
-      </button>
+  
       </>
   );
   }
