@@ -58,13 +58,19 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
     - Execute o comando: git clone https://github.com/ThiagoAciole/echologic-web-front.git
     - Quando o projeto for baixado, click com o botão direto do mouse e abra com o VSCODDE
     
-  2. Escolha uma issue
+  2. Rodar o projeto
+  
+    - Para instalar as dependencias, execute no terminal: npm install
+    - Para rodar localmente, execute no terminal: npm run dev
+    - Na teoria irá abrir a página principal no seu navegador, caso não aconteça verifique se tem um link no terminal e click
+  
+  3. Escolha uma issue
   
     - No repositorio do git vá até a parte de issues ou click nesse link https://github.com/ThiagoAciole/echologic-web-front/issues
     - Click em uma das issues de seu interesse e assine-a do lado direito da tela
     - Observe sempre se essa issue não está assinada
     
-  3. Crie uma branch local
+  4. Crie uma branch local
   
     - No VsCode abra o terminal
     - Verifique em que branch você está, executando: git branch
@@ -73,7 +79,7 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
     - Agora crie uma nova branch de desenvolvimento executando: git checkout -b <nome da branch>
     - Siga esse padrão para nome da branch: 3-cria-tela-principal (esse "3" é o número da issue)
 
-  4. Criando uma nova página
+  5. Criando uma nova página
   
     - Você vai seguir o padrão que já está pronto, em arquivos com o nome "tela-padrao"
     - Vá copiando tudo que achar sobre isso e atualize para o que deseja criar
@@ -83,7 +89,7 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
       3. src/App.jsx (aqui você vai adicionar o link da sua página para o layout principal)
     - Basicamente você só precisará fazer ctrl+c ctrl+v da página padrão e para adicionar o conteúdo vai pegar ou na internet ou os que estão prontos no arquivo que o professor compartilhou
     
-  5. Fazendo commits
+  6. Fazendo commits
   
     - Após as modificações desejadas inicie o commit executando: git init
     - Verifique o que você está enviando executando: git status
@@ -92,14 +98,11 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
     - Para a mensagem do commit siga esse padrão: feat(#3): Frase do commit (esse "3" é o número da issue)
     - Nessa hora pode pedir um login que será o da sua conta do github
   
-  6. Fazendo merge
+  7. Fim
   
-    - Após o commit bem sucedido, irá aparecer um link pra você adicionar um merge
-    - Basta clicar no link e pode deixar o nome do merge padrão
-    - Faça uma breve descrição
-    - Verifique se está assinado por você
-    - E click em mergerequest
-    - Parabéns, agora é só aguardar a aprovação
+    - Parabéns, agora é só aguardar a aprovação do merge
+    - Você pode entrar em contato com Thiago para adiantar essa parte
+    - E agora você já pode pegar uma nova issue
    
 
 <br>
@@ -134,7 +137,7 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
     </td>
     <td align="center">
       <a href="https://github.com/mateusbrga">
-        <img src="https://avatars.githubusercontent.com/u/93728229?v=4" width="100px;" alt="Avatar Matheus"/><br>
+        <img src="https://avatars.githubusercontent.com/u/93921419?v=4" width="100px;" alt="Avatar Matheus"/><br>
         <sub>
           <b>Matheus Braga</b>
         </sub>
@@ -150,7 +153,7 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
     </td>
     <td align="center">
       <a href="https://github.com/ynnayron">
-        <img src="https://avatars.githubusercontent.com/u/93790229?v=4" width="100px;" alt="Avatar Emerson"/><br>
+        <img src="https://avatars.githubusercontent.com/u/93790229?v=4" width="100px;" alt="Avatar ynnayron"/><br>
         <sub>
           <b>Ynnayron Juan</b>
         </sub>
@@ -166,7 +169,23 @@ Este é um projeto para a semana do meio ambiente do IFPB campus Campina Grande,
     </td>
   </tr>
 </table>
-
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/DWA-GIT">
+        <img src="https://avatars.githubusercontent.com/u/47758802?v=4" width="120px;" alt="Avatar Danilo"/><br>
+        <sub>
+          <b>Orientador</b>
+        </sub>
+        <br>
+        <sub>
+          <b>Danyllo Albuquerque</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+  
 [☝🏽 Voltar ao topo](#echologic-web-front)<br>
 
 </div>
