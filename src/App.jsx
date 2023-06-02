@@ -13,6 +13,7 @@ import Cadmio from './pages/Cadmio/cadmio';
 import Niobio from './pages/Niobio/niobio';
 import Plastico from './pages/Plastico/Plastico';
 import Mercurio from './pages/Mercurio/Mercurio';
+import Silicio from './pages/Silicio/Silicio';
 
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
                   <Route path='niobio' element={<Niobio/>}/>
                   <Route path='/plastico' element={<Plastico/>} />
                   <Route path='mercurio' element={<Mercurio/>} />
+                  <Route path='silicio' element={<Silicio/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
