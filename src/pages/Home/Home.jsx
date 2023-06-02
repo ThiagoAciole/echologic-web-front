@@ -6,6 +6,7 @@ import CardImagemDireita from "../../components/CardImagemDireita/CardImagemDire
 import CardImagemEsquerda from "../../components/CardImagemEsquerda/CardImagemEsquerda";
 import Cardt from "./Card/card";
 import Contato from "./Contato/Contato";
+
 export default function Home() {
   return (
     <>
