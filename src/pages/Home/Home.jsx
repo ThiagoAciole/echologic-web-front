@@ -63,14 +63,20 @@ export default function Home() {
       <Cardt
         name="RoHS"
         description="(Restrição de Substâncias Perigosas): Diretiva da União Europeia que restringe o uso de substâncias tóxicas, como chumbo, mercúrio, cádmio e cromo hexavalente, na fabricação de equipamentos elétricos e eletrônicos."
+        link="https://pt.wikipedia.org/wiki/Rohs"
+        url=""
       />
       <Cardt
         name="WEEE"
         description="(Waste Electrical and Electronic Equipment): Diretiva da União Europeia que estabelece regras para a gestão e o tratamento adequado do lixo eletrônico, incluindo a coleta, reciclagem e recuperação de materiais dos equipamentos descartados."
+        link="https://pt.wikipedia.org/wiki/Diretiva_de_Res%C3%ADduos_de_Equipamentos_El%C3%A9ctricos_e_Electr%C3%B3nicos"
+        url=""
       />
       <Cardt
         name="Energy Star"
         description="Programa internacional que certifica dispositivos eletrônicos energeticamente eficientes. O selo Energy Star indica que um produto atende a critérios específicos de economia de energia."
+        link="https://pt.wikipedia.org/wiki/Energy_Star"
+        url=""
       />
     </div>
   </div>
@@ -79,14 +85,20 @@ export default function Home() {
       <Cardt
         name="Lei Nacional de Resíduos Sólidos"
         description="(Lei nº 12.305/2010) - Brasil: Estabelece a responsabilidade compartilhada pelo ciclo de vida dos produtos, incluindo a gestão adequada do lixo eletrônico e a logística reversa, que obriga os fabricantes a implementar sistemas de coleta e reciclagem dos equipamentos descartados."
+        link="https://pt.wikipedia.org/wiki/Res%C3%ADduo_s%C3%B3lido"
+        url=""
       />
       <Cardt
         name="EPA (Environmental Protection Agency)"
         description="Estados Unidos: A EPA regulamenta questões ambientais relacionadas à produção, uso e descarte de equipamentos eletrônicos, incluindo padrões de reciclagem e disposição final de substâncias tóxicas."
+        link="https://pt.wikipedia.org/wiki/Ag%C3%AAncia_de_Prote%C3%A7%C3%A3o_Ambiental_dos_Estados_Unidos"
+        url=""
       />
       <Cardt
         name="ISO 14001"
         description="Norma internacional que estabelece critérios para um sistema de gestão ambiental eficaz. As empresas podem obter certificação ISO 14001 para demonstrar seu compromisso com a proteção ambiental e a conformidade com as regulamentações ambientais."
+        link="https://pt.wikipedia.org/wiki/ISO_14001"
+        url=""
       />
     </div>
   </div>

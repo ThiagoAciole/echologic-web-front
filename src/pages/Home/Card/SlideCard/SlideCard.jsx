@@ -1,4 +1,5 @@
 import Cardt from "../card";
+import { Link } from "react-router-dom";
 
 export default function SlideCard() {
   return (
@@ -24,9 +25,12 @@ export default function SlideCard() {
           image="https://39124.cdn.simplo7.net/static/39124/sku/molduras-para-quadros-adicional-de-vidro-a4--p-1530814699322.jpg"
         />
       </div>
+      <Link to="/lixos-eletronicos">
       <div className="mt-12 flex justify-center">
         <button className="Botão rounded-full text-base">Ver Mais</button>
       </div>
+      </Link>
+      
     </div>
   );
 }

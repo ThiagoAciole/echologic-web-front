@@ -15,19 +15,21 @@ export default function Cardt(props) {
       <Text>{props.description}</Text>
     </Flex>
     <div>
-      <Link to={`/${props.url}`}>
-        <a href={`http://${props.link}`} target="_blank" rel="noopener noreferrer">
-        <Button className="mt-4 items-center" size="sm" color="green">
-          Saiba Mais
-        </Button>
-        </a>
-        
-      </Link>
+    {props.url !== "" ?
+    <Link to={`/${props.url}`}>
+    <Button className="mt-4 items-center" size="sm" color="green">
+      Saiba Mais
+    </Button>
+    </Link> :
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
+    <Button className="mt-4 items-center" size="sm" color="green">
+      Saiba Mais
+    </Button>
+    </a>
+}
+
     </div>
   </div>
 </div>
-
-  
-   
   );
 }
