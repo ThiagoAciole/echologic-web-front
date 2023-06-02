@@ -16,6 +16,7 @@ import Mercurio from './pages/Mercurio/Mercurio';
 import Silicio from './pages/Silicio/Silicio';
 import Berilio from './pages/Berilio/Berilio';
 import Cobre from './pages/Cobre/Cobre';
+import Eletricidade from './pages/Eletricidade/eletricidade';
 
 function App() {
     return (
@@ -35,6 +36,7 @@ function App() {
                   <Route path='/silicio' element={<Silicio/>}/>
                   <Route path='/berilio' element={<Berilio/>}/>
                   <Route path='/cobre' element={<Cobre/>} />
+                <Route path='/eletricidade' element={<Eletricidade/>} />
                 </Route>
             </Routes>
         </BrowserRouter>

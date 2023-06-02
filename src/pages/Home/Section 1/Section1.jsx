@@ -14,7 +14,8 @@ export default function Section1() {
         Descubra as implicações ambientais da inovação tecnológica. 
         Nesta jornada, exploraremos as Tecnologias que Prejudicam o Meio Ambiente.
         </p>
-        <Link >
+        <Link to="/lixos-eletronicos">
+  
         <button className="Botão">
             Materiais Degradantes
         </button>

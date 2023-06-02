@@ -34,6 +34,11 @@ export default function Colaboradores() {
             <h1 className="font-sans font-extrabold text-gray-500 text-center">Ivysson Uchoa</h1>
             <p className="font-sans text-gray-700 text-center">Aluno</p>
           </div>
+          <div className="space-y-2 flex flex-col items-center">
+            <img src="" width="150px" alt="Avatar Ivysson" className="rounded-full"/>
+            <h1 className="font-sans font-extrabold text-gray-500 text-center">Ivysson Uchoa</h1>
+            <p className="font-sans text-gray-700 text-center">Aluno</p>
+          </div>
         </div>
         <Organização />
       </div>
