@@ -34,6 +34,7 @@ export default function Colaboradores() {
             <p className="font-sans text-gray-700 text-center">Aluno</p>
           </div>
         </div>
+        
       </div>
     );
   }
