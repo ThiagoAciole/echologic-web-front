@@ -10,6 +10,7 @@ import Vidro from './pages/Vidro/Vidro';
 import LixosEletronicos from './pages/LixosEletronicos/LixosEletronicos';
 import Cadmio from './pages/Cadmio/cadmio';
 import Niobio from './pages/Niobio/niobio';
+import Plastico from './pages/Plastico/Plastico';
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                   <Route path='/lixos-eletronicos' element={<LixosEletronicos/>} />
                   <Route path='cadmio' element={<Cadmio/>}/>
                   <Route path='niobio' element={<Niobio/>}/>
+                  <Route path='/plastico' element={<Plastico/>} />
                 </Route>
             </Routes>
         </BrowserRouter>
