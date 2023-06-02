@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AppLayout from './components/layout/AppLayout';
 import Home from './pages/Home/Home';
-import MaisInformacoes from './pages/MaisInformacoes/MaisInformacoes';
 import TelaPadrao from './pages/TelaPadrao/TelaPadrao';
 import Ouro from './pages/Ouro/Ouro'
 import Zinco from './pages/Zinco/Zinco'
