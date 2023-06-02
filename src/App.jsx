@@ -8,6 +8,7 @@ import Ouro from './pages/Ouro/Ouro'
 import Zinco from './pages/Zinco/Zinco'
 import Vidro from './pages/Vidro/Vidro';
 import Cadmio from './pages/Cadmio/cadmio';
+import Silicio from './pages/Silicio/Silicio';
 
 function App() {
     return (
@@ -20,7 +21,7 @@ function App() {
                   <Route path='zinco' element={<Zinco/>} />
                   <Route path='vidro' element={<Vidro/>} />
                   <Route path='cadmio' element={<Cadmio/>}/>
-                  <Route path='niobio' element={<Niobio/>}/>
+                  <Route path='silicio' element={<Silicio/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
