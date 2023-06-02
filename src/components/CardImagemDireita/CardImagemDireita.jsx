@@ -2,12 +2,22 @@ import styles from './CardImagemDireita.module.css'
 
 export default function CardImagemDireita({titulo, texto, imagem}) {
   return (
-    <div className="flex justify-around mt-20 sm:justify-center items-center" id={styles.cardImagemDireitaResponsividade}>
-        <div className="pr-32 flex flex-col justify-center md:w-7/12">
-            <h1 className="font-sans lg:text-5xl text-3xl font-extrabold text-gray-700 pt-5">{titulo}</h1>
-            <p className="pt-10 pb-5 lg:text-xl text-sm font-sans">{texto}</p>
-        </div>
-        <img className="border-2 rounded-lg md:w-80 md:h-96" src={imagem} alt="img" />
+    <div
+    id="sobre"
+    className="mt-24 p-6 h-full items-start flex flex-col sm:flex-row space-y-8 space-x-0 sm:space-x-8 sm:space-y-0 justify-around"
+  >
+    
+    <div className="space-y-8 sm:w-1/2 sm:p-8">
+      <h1 className="font-sans text-5xl font-extrabold text-gray-700">
+        {titulo}
+      </h1>
+      <p className="font-sans text-xl text-gray-700 ">
+        {texto}
+      </p>
     </div>
+    <div className="">
+      <img className="w-96" src={imagem} alt="" />
+    </div>
+  </div>
   )
 }
