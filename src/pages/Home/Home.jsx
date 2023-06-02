@@ -42,8 +42,12 @@ export default function Home() {
           titulo="Descarte correto"
           texto="Ao contrário do lixo comum, os equipamentos eletrônicos contêm materiais tóxicos e valiosos que precisam ser tratados de forma adequada. Para descartar corretamente seu lixo eletrônico, é importante buscar pontos de coleta especializados ou centros de reciclagem na sua região. Em Campina Grande-PB, identificamos dois pontos de coleta desse tipo especial de resíduo:."
           imagem="https://casacor.abril.com.br/wp-content/uploads/sites/7/2021/06/lixo-eletronico-9.jpg?quality=80&strip=info&w=920"
+          link1="SESUMA"
+          link2="SCTI"
         />
+  
       </div>
+
       <div id="legislação" className="mt-12 p-6  h-full items-center flex flex-col sm:flex-col space-y-8">
   <div className="mx-4 sm:w-2/3 sm:p-8 mx-auto">
     <h1 className="font-sans text-5xl font-extrabold text-gray-700 text-center">
