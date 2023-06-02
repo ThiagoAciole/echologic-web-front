@@ -1,7 +1,7 @@
 import CardMaterial from "./Card/card"
 import Colaboradores from "./Organização/colaboradores"
 import Section1 from "./Section 1/Section1"
-import Sobre from "./Sobre/sobre"
+import Sobre from "./Sobre/Sobre"
 import { Link } from "react-router-dom";
 
 
