@@ -44,7 +44,7 @@ export default function Home() {
           imagem="https://casacor.abril.com.br/wp-content/uploads/sites/7/2021/06/lixo-eletronico-9.jpg?quality=80&strip=info&w=920"
         />
       </div>
-      <div id="legislação" className="mt-12 h-full items-center flex flex-col sm:flex-col space-y-8">
+      <div id="legislação" className="mt-12 p-6  h-full items-center flex flex-col sm:flex-col space-y-8">
   <div className="mx-4 sm:w-2/3 sm:p-8 mx-auto">
     <h1 className="font-sans text-5xl font-extrabold text-gray-700 text-center">
       Legislação
@@ -69,7 +69,7 @@ export default function Home() {
       />
     </div>
   </div>
-  <div className="mt-8 h-full items-center flex flex-col sm:flex-col space-y-8">
+  <div className="mt-8  h-full items-center flex flex-col sm:flex-col space-y-8">
     <div className="flex flex-col justify-between space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6 mx-4 sm:mx-auto">
       <Cardt
         name="Lei Nacional de Resíduos Sólidos"

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Cardt(props) {
   return (
    
-    <div className="w-96 border p-6 rounded-lg content-between shadow h-auto flex flex-col items-center">
+    <div className="border p-6 rounded-lg content-between shadow h-auto flex flex-col items-center">
   <img src={props.image} alt="" className="mb-4 w-60" />
   <div className="flex flex-col items-center justify-between flex-grow">
     <div className="flex-grow">
@@ -16,9 +16,12 @@ export default function Cardt(props) {
     </Flex>
     <div>
       <Link to={`/${props.url}`}>
+        <a href={`http://${props.link}`} target="_blank" rel="noopener noreferrer">
         <Button className="mt-4 items-center" size="sm" color="green">
           Saiba Mais
         </Button>
+        </a>
+        
       </Link>
     </div>
   </div>

@@ -88,7 +88,7 @@ nav {
 
 @media (max-width: 768px) {
   header {
-    position: absolute;
+    position: relative;
     
   }
   .menu {
@@ -100,8 +100,8 @@ nav {
   }
 
   nav{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   nav.open .menu  {
     display: flex;

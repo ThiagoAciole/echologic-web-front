@@ -43,7 +43,7 @@ export default function Contato() {
   };
 
   return (
-    <div className="fundo p-8 rounded-lg">
+    <div className="fundo rounded-lg">
       <h2 className="font-semibold text-green-800 mb-6">
         Agradecemos por visitar nosso site e esperamos que ele seja uma fonte valiosa de informações sobre o impacto ambiental dos materiais na indústria de equipamentos de informática. Junte-se a nós nessa jornada de conscientização e ação em prol de um futuro mais sustentável!
       </h2>

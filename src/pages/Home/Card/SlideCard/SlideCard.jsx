@@ -2,7 +2,7 @@ import Cardt from "../card";
 
 export default function SlideCard() {
   return (
-    <div className="mt-8 h-full items-center flex flex-col sm:flex-col space-y-8">
+    <div className="justify-between mt-8 h-full items-center flex flex-col sm:flex-col space-y-8">
       <div className="flex flex-col justify-between space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6 mx-4">
         <Cardt
           name="Ouro"
