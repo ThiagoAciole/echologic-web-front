@@ -1,12 +1,13 @@
-import { Card, Text, Metric, Flex, Button } from "@tremor/react";
+import {  Text, Metric, Flex, Button } from "@tremor/react";
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-export default function CardMaterial(props) {
+export default function Cardt(props) {
   return (
-    <Card className="">
-      <img src={props.image}alt="" width={300} height={300} className="mb-4 " />
-      <Metric>{props.name}</Metric>
+   
+    <div className="w-96 border p-6 rounded-lg content-between shadow h-auto items-center space-y-6">
+      <img src={props.image}alt=""className="mb-4 w-60  " />
+      <Metric className="text-center">{props.name}</Metric>
       <Flex className="mt-4">
         <Text>
           {props.description}
@@ -17,7 +18,7 @@ export default function CardMaterial(props) {
         Saiba Mais
       </Button>
       </Link>
-     
-    </Card>
+      </div>
+   
   );
 }
