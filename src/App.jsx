@@ -7,6 +7,7 @@ import TelaPadrao from './pages/TelaPadrao/TelaPadrao';
 import Ouro from './pages/Ouro/Ouro'
 import Zinco from './pages/Zinco/Zinco'
 import Vidro from './pages/Vidro/Vidro';
+import Chumbo from './pages/Chumbo/Chumbo';
 import LixosEletronicos from './pages/LixosEletronicos/LixosEletronicos';
 import Cadmio from './pages/Cadmio/cadmio';
 import Niobio from './pages/Niobio/niobio';
@@ -23,6 +24,7 @@ function App() {
                   <Route path='ouro' element={<Ouro/>} />
                   <Route path='zinco' element={<Zinco/>} />
                   <Route path='vidro' element={<Vidro/>} />
+                  <Route path='chumbo' element={<Chumbo/>} />
                   <Route path='/lixos-eletronicos' element={<LixosEletronicos/>} />
                   <Route path='cadmio' element={<Cadmio/>}/>
                   <Route path='niobio' element={<Niobio/>}/>
