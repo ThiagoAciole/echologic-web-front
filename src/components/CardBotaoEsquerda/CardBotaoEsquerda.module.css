@@ -1,0 +1,51 @@
+.botao {
+  background-color: #224722;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: #193419;
+}
+
+@media (max-width: 768px) {
+  #cardBotaoEsquerdaResponsividade img {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 1009px) {
+  #cardBotaoEsquerdaResponsividade {
+    flex-direction: column;
+  }
+  #cardBotaoEsquerdaResponsividade div {
+    padding: 0px;
+  }
+  #cardBotaoEsquerdaResponsividade h1 {
+    text-align: center;
+  }
+  #cardBotaoEsquerdaResponsividade p {
+    text-align: center;
+  }
+  #cardBotaoEsquerdaResponsividade img {
+    width: 280px;
+    height: 340px;
+  }
+  #cardBotaoEsquerdaResponsividade .divBotao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  #cardBotaoEsquerdaResponsividade img {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 525px) {
+  #cardBotaoEsquerdaResponsividade img {
+    width: 220px;
+    height: 280px;
+  }
+}/*# sourceMappingURL=CardBotaoEsquerda.module.css.map */

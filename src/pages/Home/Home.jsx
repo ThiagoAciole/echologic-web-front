@@ -1,75 +1,121 @@
-import CardMaterial from "./Card/card"
-import Colaboradores from "./Organização/colaboradores"
-import Section1 from "./Section 1/Section1"
-import Sobre from "./Sobre/sobre"
-import { Link } from "react-router-dom";
-
+import SlideCard from "./Card/SlideCard/SlideCard";
+import Colaboradores from "./Organização/colaboradores";
+import Section1 from "./Section 1/Section1";
+import Sobre from "./Sobre/sobre";
+import CardImagemDireita from "../../components/CardImagemDireita/CardImagemDireita";
+import CardImagemEsquerda from "../../components/CardImagemEsquerda/CardImagemEsquerda";
+import Cardt from "./Card/card";
+import Contato from "./Contato/Contato";
 
 export default function Home() {
   return (
     <>
-    <div  className="h-full ">
-        <Section1/>
-    </div>
-    <div className="ml-12 mr-12">
-        <Sobre/>
-    </div>
-    <div className="mt-24 h-full items-center flex flex-col sm:flex-col space-y-8">
-       
-        <Colaboradores/>
-           
-        
-    </div>
-    <div id="lixoEletronico" className="mt-24 h-full items-center flex flex-col sm:flex-col space-y-8">
-        <div className="space-y-8 sm:w-1/2 sm:p-8 mx-auto ">
-            <h1 className="font-sans text-5xl font-extrabold text-gray-700 text-center">Conheça os Materiais que degradam o meio ambiente</h1>
-            <p className="font-sans text-xl text-gray-700 text-center">
-            Conheça os principais materiais utilizados na fabricação de equipamentos de informática e seu impacto ambiental
-            </p>
-        </div>
+      <div className="h-full ">
+        <Section1 />
+      </div>
+      <div className="ml-12 mr-12">
+        <Sobre />
+      </div>
 
-            <div className="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6 ml-12 mr-12">
-            <CardMaterial 
-            name="Ouro" 
-            description="Ouro é um metal precioso de cor amarela brilhante, altamente valorizado por sua beleza e raridade, utilizado há séculos como símbolo de riqueza e status. Sua durabilidade, maleabilidade e condutividade o tornam versátil para joias, eletrônica e várias aplicações industriais." 
-            url="ouro" 
-            image="https://ejior.com.br/wp-content/uploads/2020/10/ejior.com.br-ouro-conheca-a-historia-que-alavancou-seu-poder-no-mundo-pilha-de-barras-de-ouro-em-branco-290464-674.jpg" />
-            
-            <CardMaterial 
-            name="Zinco"  
-            description="Zinco é um metal azulado-branco, conhecido por sua resistência à corrosão. Amplamente utilizado na indústria, o zinco desempenha um papel essencial como revestimento protetor, bem como na fabricação de ligas metálicas e na produção de pilhas."
-            url="zinco" 
-            image="https://5.imimg.com/data5/UN/SS/MY-34737767/zinc-metal-500x500.jpg"/>
-            <CardMaterial 
-            name="Vidro" 
-            description="Vidro é um material transparente e sólido, composto principalmente de sílica derretida e resfriada rapidamente. É amplamente utilizado na fabricação de janelas, recipientes, lentes ópticas e em uma variedade de aplicações industriais e artísticas devido à sua transparência, durabilidade e capacidade de ser moldado em diferentes formas."
-            url="vidro" 
-            image="https://39124.cdn.simplo7.net/static/39124/sku/molduras-para-quadros-adicional-de-vidro-a4--p-1530814699322.jpg"/>  
-            
-            </div>
-            <div className="mt-12">
-            <button className="Botão rounded-full text-base">Ver Mais</button>
-            </div>
-            
-           
-            
-    </div>
-    <div>
-  
-    </div>
-    <div id="maisInfo" className="mt-24 h-full items-center flex flex-col space-y-8 text-center mx-auto p-6 ">
-  <h1 className="font-sans text-5xl font-extrabold text-gray-700 w-full sm:w-1/2">Mais Informações Sobre o Lixo Eletrônico e Seu devido Descarte</h1>
-  <p className="font-sans text-xl text-gray-700">
-    Descubra tudo sobre o descarte correto do lixo eletrônico e a legislação que o envolve. Entenda por que é tão importante agir de forma responsável ao se livrar de seus dispositivos antigos. Saiba como você pode contribuir para a proteção do meio ambiente e evitar problemas legais. Clique aqui para obter mais informações sobre o tema e fique por dentro de todas as orientações e regulamentações relacionadas ao descarte adequado de lixo eletrônico.
-  </p>
-  <Link to="/mais-informacoes">
-  <button className="btn">Saiba Mais</button>
-  </Link>
- 
+      <div id="materiais" className="mx-4 mt-24 h-full items-center flex flex-col space-y-8">
+  <div className="space-y-8 sm:w-1/2 sm:p-8 mx-auto text-center">
+    <h1 className="font-sans text-5xl font-extrabold text-gray-700">
+      Conheça os Materiais que degradam o meio ambiente
+    </h1>
+    <p className="font-sans text-xl text-gray-700">
+      Conheça os principais materiais utilizados na fabricação de equipamentos de informática e seu impacto ambiental
+    </p>
+  </div>
+  <div className="flex justify-center">
+    <SlideCard />
+  </div>
 </div>
 
-      </>
-    )
-    
-}
+      <div id="lixoeletronico">
+        <CardImagemEsquerda
+          titulo="Lixo Eletrônico"
+          texto="Promover a conscientização, a responsabilidade socioambiental e construir novos sentidos é o intuito da Semana do Meio Ambiente (SEMA 2023), realizada entre os dias 5 e 7 de junho, durante os três turnos (manhã/tarde e noite). E traz como tema central “IFPB Campina Grande: protagonizando responsabilidade ambiental e gestão social”, a partir de muita interação acadêmica e artística por meio de oficinas, palestras, minicursos, rodas de conversas, aulas de campo, exposições, mostra científica e apresentações culturais."
+          imagem="https://www.pgeletronica.com.br/media/sig_f0BVEu34gQ/produtos/sucata-lixo-eletronico/sucata-lixo-eletronico-36.jpeg"
+        />
+      </div>
+      <div id="descarte">
+        <CardImagemDireita
+          titulo="Descarte correto"
+          texto="Ao contrário do lixo comum, os equipamentos eletrônicos contêm materiais tóxicos e valiosos que precisam ser tratados de forma adequada. Para descartar corretamente seu lixo eletrônico, é importante buscar pontos de coleta especializados ou centros de reciclagem na sua região. Em Campina Grande-PB, identificamos dois pontos de coleta desse tipo especial de resíduo:."
+          imagem="https://casacor.abril.com.br/wp-content/uploads/sites/7/2021/06/lixo-eletronico-9.jpg?quality=80&strip=info&w=920"
+          link1="SESUMA"
+          link2="SCTI"
+        />
+  
+      </div>
 
+      <div id="legislação" className="mt-12 p-6  h-full items-center flex flex-col sm:flex-col space-y-8">
+  <div className="mx-4 sm:w-2/3 sm:p-8 mx-auto">
+    <h1 className="font-sans text-5xl font-extrabold text-gray-700 text-center">
+      Legislação
+    </h1>
+    <p className="mt-4 font-sans text-xl text-gray-700 text-center">
+      A produção e o descarte de equipamentos de informática estão sujeitos a uma série de normas e leis ambientais que visam minimizar o impacto negativo desses dispositivos no meio ambiente. Essas regulamentações estabelecem diretrizes para a fabricação responsável, o uso sustentável dos recursos naturais e o descarte adequado dos equipamentos eletrônicos. Conhecer e cumprir essas leis é fundamental para garantir a sustentabilidade da indústria de tecnologia e preservar o meio ambiente. Aqui estão algumas normas e leis associadas ao tema:
+    </p>
+  </div>
+  <div className="mt-8 h-full items-center flex flex-col sm:flex-col space-y-8">
+    <div className="flex flex-col justify-between space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6 mx-4 sm:mx-auto">
+      <Cardt
+        name="RoHS"
+        description="(Restrição de Substâncias Perigosas): Diretiva da União Europeia que restringe o uso de substâncias tóxicas, como chumbo, mercúrio, cádmio e cromo hexavalente, na fabricação de equipamentos elétricos e eletrônicos."
+        link="https://pt.wikipedia.org/wiki/Rohs"
+        url=""
+      />
+      <Cardt
+        name="WEEE"
+        description="(Waste Electrical and Electronic Equipment): Diretiva da União Europeia que estabelece regras para a gestão e o tratamento adequado do lixo eletrônico, incluindo a coleta, reciclagem e recuperação de materiais dos equipamentos descartados."
+        link="https://pt.wikipedia.org/wiki/Diretiva_de_Res%C3%ADduos_de_Equipamentos_El%C3%A9ctricos_e_Electr%C3%B3nicos"
+        url=""
+      />
+      <Cardt
+        name="Energy Star"
+        description="Programa internacional que certifica dispositivos eletrônicos energeticamente eficientes. O selo Energy Star indica que um produto atende a critérios específicos de economia de energia."
+        link="https://pt.wikipedia.org/wiki/Energy_Star"
+        url=""
+      />
+    </div>
+  </div>
+  <div className="mt-8  h-full items-center flex flex-col sm:flex-col space-y-8">
+    <div className="flex flex-col justify-between space-y-6 sm:flex-row sm:space-y-0 sm:space-x-6 mx-4 sm:mx-auto">
+      <Cardt
+        name="Lei Nacional de Resíduos Sólidos"
+        description="(Lei nº 12.305/2010) - Brasil: Estabelece a responsabilidade compartilhada pelo ciclo de vida dos produtos, incluindo a gestão adequada do lixo eletrônico e a logística reversa, que obriga os fabricantes a implementar sistemas de coleta e reciclagem dos equipamentos descartados."
+        link="https://pt.wikipedia.org/wiki/Res%C3%ADduo_s%C3%B3lido"
+        url=""
+      />
+      <Cardt
+        name="EPA (Environmental Protection Agency)"
+        description="Estados Unidos: A EPA regulamenta questões ambientais relacionadas à produção, uso e descarte de equipamentos eletrônicos, incluindo padrões de reciclagem e disposição final de substâncias tóxicas."
+        link="https://pt.wikipedia.org/wiki/Ag%C3%AAncia_de_Prote%C3%A7%C3%A3o_Ambiental_dos_Estados_Unidos"
+        url=""
+      />
+      <Cardt
+        name="ISO 14001"
+        description="Norma internacional que estabelece critérios para um sistema de gestão ambiental eficaz. As empresas podem obter certificação ISO 14001 para demonstrar seu compromisso com a proteção ambiental e a conformidade com as regulamentações ambientais."
+        link="https://pt.wikipedia.org/wiki/ISO_14001"
+        url=""
+      />
+    </div>
+  </div>
+</div>
+<div id="contato" className="flex justify-center">
+
+  <div className="w-2/3 mt-24">
+  <h1 className="mb-6 font-sans text-3xl font-extrabold text-gray-700 text-center">Contato</h1>
+    <Contato />
+  </div>
+</div>
+
+
+      <div className=" h-full items-center flex flex-col sm:flex-col space-y-8">
+        <Colaboradores />
+      </div>
+    
+    </>
+  );
+}

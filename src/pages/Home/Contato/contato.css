@@ -1,0 +1,9 @@
+.fundo{
+    width: auto;
+    min-height: 100vh;
+    margin: 0 ;
+    padding: 0;
+}
+input, textarea {
+    border: 1px solid #9AB985;
+}

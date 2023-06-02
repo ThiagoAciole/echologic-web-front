@@ -1,3 +1,4 @@
+import Organização from "./organização";
 export default function Colaboradores() {
     return (
       <div className="mx-auto ">
@@ -34,6 +35,7 @@ export default function Colaboradores() {
             <p className="font-sans text-gray-700 text-center">Aluno</p>
           </div>
         </div>
+        <Organização />
       </div>
     );
   }

@@ -1,7 +1,7 @@
 header {
   background-color: #f0f0f0;
   padding: 20px 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -87,6 +87,10 @@ nav {
 }
 
 @media (max-width: 768px) {
+  header {
+    position: relative;
+    
+  }
   .menu {
     display: none;
   }
@@ -96,8 +100,8 @@ nav {
   }
 
   nav{
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   nav.open .menu  {
     display: flex;

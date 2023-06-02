@@ -39,7 +39,7 @@ export default function Header() {
           </li>
           <li>
             <ScrollLink
-              to="lixoEletronico"
+              to="materiais"
               smooth={true}
               duration={500}
               >
@@ -48,11 +48,30 @@ export default function Header() {
           </li>
           <li>
             <ScrollLink
-              to="maisInfo"
+              to="lixoeletronico"
               smooth={true}
               duration={500}
               >
-              Mais Informações
+              Lixo Eletronico
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="descarte"
+              smooth={true}
+              duration={500}
+             >
+              Descarte Correto
+            </ScrollLink>
+          </li>
+         
+          <li>
+            <ScrollLink
+              to="legislação"
+              smooth={true}
+              duration={500}
+             >
+              Legislação
             </ScrollLink>
           </li>
           <li>

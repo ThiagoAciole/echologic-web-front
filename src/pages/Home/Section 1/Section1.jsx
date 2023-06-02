@@ -11,8 +11,8 @@ export default function Section1() {
           Impacto Ambiental de Tecnologias Modernas
         </h1>
         <p className="description">
-          Descubra o lado obscuro da inovação tecnológica. Nesta jornada,
-          exploraremos as Tecnologias que Prejudicam o Meio Ambiente
+        Descubra as implicações ambientais da inovação tecnológica. 
+        Nesta jornada, exploraremos as Tecnologias que Prejudicam o Meio Ambiente.
         </p>
         <Link >
         <button className="Botão">
